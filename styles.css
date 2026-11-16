@@ -321,3 +321,30 @@ details p{padding:0 clamp(18px,2vw,28px) clamp(18px,2vw,28px);max-width:44em;ani
   .hero__title .w>span{transform:none}
   .run__track{transform:none!important}
 }
+
+/* more services */
+.more{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:clamp(28px,4vw,56px)}
+.more__c{background:var(--oak2);padding:clamp(20px,2.4vw,36px)}
+.more__c:nth-child(2){background:var(--mint)}
+.more__c h3{margin-bottom:8px;font-size:clamp(1.15rem,1.8vw,1.6rem)}
+/* design projects */
+.dsg{padding:clamp(40px,6vw,88px) var(--gx) 0}
+.dsg h3{font-size:clamp(1.3rem,2.2vw,2rem);margin-bottom:20px}
+.dsg ul{display:grid;gap:6px}
+.dsg li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;background:var(--bg2);padding:clamp(16px,2vw,26px);transition:background .3s var(--ease),transform .4s var(--ease)}
+.dsg li:hover{background:var(--oak2);transform:translateX(8px)}
+.dsg li span{font:600 clamp(1.05rem,1.8vw,1.6rem)/1.2 var(--f-d);letter-spacing:-.03em}
+.dsg li small{font-size:.9rem;color:var(--ink2);white-space:nowrap}
+/* about */
+.about{padding:clamp(72px,10vw,150px) var(--gx);display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(24px,5vw,96px);align-items:start}
+.about__l h2{margin-bottom:clamp(20px,3vw,36px)}
+.about__lead{font:500 clamp(1.3rem,2.2vw,2rem)/1.3 var(--f-b);letter-spacing:-.02em;margin-bottom:20px;max-width:22em}
+.about__l p:last-child{max-width:32em}
+.about__r{display:grid;gap:8px}
+.about__c{padding:clamp(22px,2.6vw,40px)}
+.about__c h3{margin-bottom:10px;font-size:clamp(1.2rem,1.9vw,1.8rem)}
+.about__c--a{background:var(--oak2)}.about__c--b{background:var(--mint)}.about__c--c{background:var(--bg3)}
+@media (max-width:960px){
+  .more,.about{grid-template-columns:1fr}
+  .dsg li{flex-direction:column;gap:4px}
+}
