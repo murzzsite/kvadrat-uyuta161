@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cvadrat-uyuta161.ru/sitemap.xml
