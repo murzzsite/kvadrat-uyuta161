@@ -1,0 +1,45 @@
+{
+  "siteName": "Квадрат Уюта 161",
+  "siteUrl": "https://cvadrat-uyuta161.ru",
+  "lang": "ru",
+  "repo": "murzzsite/kvadrat-uyuta161",
+  "ref": "GVPNL2N7FM",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи о стоимости и порядке ремонта квартир, новостройках и выборе подрядчика в Ростове-на-Дону.",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Квадрат Уюта 161",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы по ремонту?",
+  "ctaText": "Оставьте телефон: договоримся о бесплатном замере, инженер посчитает смету, цена попадёт в договор.",
+  "ctaButton": "Вызвать замерщика",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": false,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/remont-kvartir.html",
+    "/remont-domov-kottedzhey.html",
+    "/remont-ofisov-magazinov.html",
+    "/dizayn-interera.html",
+    "/presentation.html"
+  ],
+  "indexNowKey": "5887e6dafc1af0dd2609f0fcc684cbb3",
+  "previewSecret": "47d5c801bf108ac2",
+  "theme": {
+    "accent": "var(--red)",
+    "accent-soft": "var(--oak3)",
+    "bg": "var(--bg)",
+    "surface": "var(--oak3)",
+    "ink": "var(--ink)",
+    "text": "var(--ink)",
+    "soft": "var(--ink2)",
+    "line": "var(--bg3)",
+    "radius": "0px"
+  }
+}

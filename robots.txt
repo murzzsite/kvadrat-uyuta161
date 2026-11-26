@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /blog/preview/
 
 Sitemap: https://cvadrat-uyuta161.ru/sitemap.xml

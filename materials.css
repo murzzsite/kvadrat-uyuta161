@@ -127,3 +127,35 @@ h1,h2,h3{font-family:var(--fd);font-weight:var(--hw);letter-spacing:var(--ls);li
 .brand{font-size:16px}
 .dq summary{font-size:clamp(15px,1.4vw,18px)}
 .dtab{min-width:480px}
+
+/* ==== pages v3 (услуги, юр. страницы, материалы пакета) ==== */
+html{scroll-padding-top:84px}
+.need{background:#fff2a8;color:var(--ink);padding:1px 5px}
+.txt{background:var(--surface);border-left:6px solid var(--tone);padding:14px 18px;margin:0 0 12px;white-space:pre-line;overflow-wrap:anywhere;line-height:1.55;max-width:74ch}
+.olist{display:grid;gap:10px;padding-left:1.4em;margin:0}
+.olist li{line-height:1.5;overflow-wrap:anywhere;padding-left:4px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.toc a{font:600 14px/1 var(--ft);padding:10px 14px;background:var(--soft);text-decoration:none;color:var(--ink)}
+.toc a:hover{background:var(--ink);color:var(--surface)}
+.pic{margin:0 0 4px}
+.pic img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.pic figcaption{font-size:14px;color:var(--ink2);margin-top:8px}
+.legal{max-width:760px;padding-bottom:24px}
+.legal h2{font-size:clamp(18px,2vw,24px);margin:30px 0 10px}
+.legal p,.legal li{line-height:1.6;margin:0 0 10px}
+.legal ul{padding-left:1.3em;list-style:disc}
+.dfoot__nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:0 0 12px}
+.kpi div{background:var(--surface);padding:18px 20px;line-height:1.35;color:var(--ink2)}
+.kpi b{display:block;font:var(--hw) clamp(22px,2.4vw,32px)/1.1 var(--fd);letter-spacing:var(--ls);color:var(--acc-deep);margin-bottom:6px;overflow-wrap:anywhere}
+.calc2{display:grid;gap:12px;max-width:420px;background:var(--surface);padding:20px}
+.calc2 label{font-weight:600;font-size:15px}
+.calc2 input{font:inherit;padding:12px 14px;border:2px solid var(--ink);background:#fff;width:100%;border-radius:0}
+.calc2 output{font:var(--hw) 26px var(--fd);letter-spacing:var(--ls);color:var(--acc-deep)}
+.poster{max-width:420px;text-align:center;background:var(--surface);padding:24px;border-top:6px solid var(--acc)}
+.poster .qr{border:2px dashed var(--ink);height:220px;display:flex;align-items:center;justify-content:center;background:#fff;margin:14px 0}
+.logoimg{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.logoimg img{border:1px solid var(--line);background:#fff;max-width:100%}
+.dhero .toc{margin-top:26px}
+.stepx{counter-reset:s}
+@media(max-width:560px){.toc a{padding:11px 12px}.legal{padding-inline:0}.txt{padding:12px 14px}}
