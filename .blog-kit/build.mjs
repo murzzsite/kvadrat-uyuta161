@@ -167,6 +167,7 @@ ${body}
 </main>
 ${footerHtml}
 ${hasScript ? `<script src="${BASE}/script.js" defer></script>` : ''}
+${fs.existsSync(path.join(ROOT, 'cookie.js')) ? `<script src="${BASE}/cookie.js" defer></script>` : ''}
 ${metrika}
 </body>
 </html>`;

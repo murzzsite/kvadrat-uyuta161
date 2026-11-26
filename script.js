@@ -61,6 +61,9 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/GVPNL2N7FM'
     window.scrollTo({ top, behavior: reduce ? 'auto' : 'smooth' });
   }));
 
+  /* страницы блога подключают этот файл ради шапки: сцены и формы там нет */
+  if (!document.getElementById('floor')) return;
+
   /* ============ hero: laser scan ============ */
   const scan = $('#scan'), tag = $('#scanTag');
   let sp = 0, sweeping = true;
