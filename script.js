@@ -272,6 +272,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/GVPNL2N7FM'
       const resp = await fetch(LEAD_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       label.textContent = 'Заявка отправлена';
+      try { if (window.ym) window.ym(114698940, 'reachGoal', 'lead'); } catch (_) {}
       fnote.textContent = 'Спасибо! Мы свяжемся с вами и договоримся о времени замера.';
       form.reset();
     } catch (err) {
